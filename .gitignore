@@ -1,0 +1,14 @@
+# I'm using gitignore as a whitelist here, I only care about the readme and the actual files, nothing else
+*
+!*/
+!.gitignore
+!.git/**
+!README.md
+# files for flat plates
+!*.DXF
+# files for bent plates
+!*.step
+!*.stp
+# just in case
+!description.txt
+!*.PNG
